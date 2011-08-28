@@ -11,7 +11,9 @@ key 1 {
     label, number:                      '1'
     base:                               '1'
     shift:                              '!'
-    alt, ctrl, meta:                    none
+    ctrl:                               none
+    ctrl+shift:                         '\uff01'
+    alt, meta:                          none
 }
 
 key 2 {
@@ -67,14 +69,18 @@ key 9 {
     label, number:                      '9'
     base:                               '9'
     shift:                              '('
-    alt, ctrl, meta:                    none
+    ctrl:                               none
+    ctrl+shift:                         '\uff62'
+    alt, meta:                          none
 }
 
 key 0 {
     label, number:                      '0'
     base:                               '0'
     shift:                              ')'
-    alt, ctrl, meta:                    none
+    ctrl:                               none
+    ctrl+shift:                         '\uff63'
+    alt, meta:                          none
 }
 
 key MINUS {
@@ -191,14 +197,18 @@ key LEFT_BRACKET {
     label, number:                      '['
     base:                               '['
     shift:                              '{'
-    alt, ctrl, meta:                    none
+    ctrl:                               '\u3010'
+    ctrl+shift:                         '\uff5b'
+    alt, meta:                          none
 }
 
 key RIGHT_BRACKET {
     label, number:                      ']'
     base:                               ']'
     shift:                              '}'
-    alt, ctrl, meta:                    none
+    ctrl:                               '\u3011'
+    ctrl+shift:                         '\uff5d'
+    alt, meta:                          none
 }
 
 key BACKSLASH {
@@ -293,14 +303,18 @@ key SEMICOLON {
     label, number:                      ';'
     base:                               ';'
     shift:                              ':'
-    alt, ctrl, meta:                    none
+    ctrl:                               '\uff1b'
+    ctrl+shift:                         '\uff1a'
+    alt, meta:                          none
 }
 
 key APOSTROPHE {
     label, number:                      '\''
     base:                               '\''
     shift:                              '"'
-    alt, ctrl, meta:                    none
+    ctrl:                               '\u3001'
+    ctrl+shift:                         none
+    alt, meta:                          none
 }
 
 key ENTER {
@@ -376,21 +390,27 @@ key COMMA {
     label, number:                      ','
     base:                               ','
     shift:                              '<'
-    alt, ctrl, meta:                    none
+    ctrl:                               '\uff0c'
+    ctrl+shift:                         none
+    alt, meta:                          none
 }
 
 key PERIOD {
     label, number:                      '.'
     base:                               '.'
     shift:                              '>'
-    alt, ctrl, meta:                    none
+    ctrl:                               '\u3002'
+    ctrl+shift:                         none
+    alt, meta:                          none
 }
 
 key SLASH {
     label, number:                      '/'
     base:                               '/'
     shift:                              '?'
-    alt, ctrl, meta:                    none
+    ctrl:                               none
+    ctrl+shift:                         '\uff1f'
+    alt, meta:                          none
 }
 
 key SPACE {
