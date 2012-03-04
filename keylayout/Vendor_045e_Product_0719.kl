@@ -13,7 +13,11 @@
 # limitations under the License.
 
 #
-# XBox 360 USB Controller
+# XBox 360 USB Wireless Controller
+# Reports itself as "Xbox 360 Wireless Receiver" and
+# "Microsoft Corp. Xbox 360 Wireless Adapter"
+# Similar in behavior to XBox 360 USB Controller except for the d-pad,
+# which is digital (scan codes instead of axes) on the wireless version.
 #
 # NVIDIA Normalized Gamepad
 
@@ -49,6 +53,8 @@ axis 0x02 LTRIGGER
 axis 0x05 RTRIGGER
 
 # Hat.
-# (D-pad is reported as analog. Each axis has range from -1 to 1.)
-axis 0x10 HAT_X
-axis 0x11 HAT_Y
+# (D-pad is reported as digital. Each direction has a scan code.)
+key 0x2c0 DPAD_LEFT
+key 0x2c1 DPAD_RIGHT
+key 0x2c2 DPAD_UP
+key 0x2c3 DPAD_DOWN
